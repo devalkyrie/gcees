@@ -9,6 +9,7 @@ sudo apt-get install htop
 sudo apt-get install ncdu
 sudo apt-get install bat
 sudo apt install zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 sudo add-apt-repository --yes ppa:lazygit-team/release
 sudo apt-get update
