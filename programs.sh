@@ -1,15 +1,16 @@
 sudo apt install git curl python3-pip python3-venv exuberant-ctags ack-grep
 pip3 install pynvim flake8 pylint isort --user
 pip3 install distro
-sudo add-apt-repository ppa:neovim-ppa/stable 
+sudo add-apt-repository --yes ppa:neovim-ppa/stable 
 sudo apt-get update
 sudo apt-get install neovim
 sudo apt-get install python3-neovim
 sudo apt-get install htop
 sudo apt-get install ncdu
 sudo apt-get install bat
+sudo apt install zsh
 
-sudo add-apt-repository ppa:lazygit-team/release
+sudo add-apt-repository --yes ppa:lazygit-team/release
 sudo apt-get update
 sudo apt-get install lazygit
 
